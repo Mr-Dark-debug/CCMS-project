@@ -1,21 +1,39 @@
-<<<<<<< HEAD
-# CCMS-project
-college project
-=======
-# ccms
+# Carbon Credit Management System (CCMS)
 
-A new Flutter project.
+Welcome to the Carbon Credit Management System (CCMS) project! This application is designed to help organizations manage and track their carbon emissions, ensuring compliance with regulatory requirements and promoting environmental sustainability.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **User-friendly Interface**: Intuitive UI for easy navigation.
+- **Excel File Upload**: Organizations can upload Excel files to report their carbon emissions.
+- **Emission Tracking**: Automatically calculates total emissions and checks against regulatory limits based on organization type.
+- **Data Storage**: Uses Shared Preferences for local data storage.
+- **Conflict Management**: Handles potential conflicts in data submission gracefully.
+- **Blockchain Integration**: Plans for secure storage of data on a blockchain for added security and traceability.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 4fbef85 (All the changese excel parsing and json data sharing only blockchain integration remains)
+## Technologies Used
+
+- Flutter: For cross-platform mobile app development.
+- Dart: Programming language used for building the app.
+- Shared Preferences: For local data storage.
+- File Picker: For file uploads.
+- Excel: For parsing uploaded Excel files.
+- JSON: For structured data storage and sharing.
+
+## Installation
+
+To get started with the CCMS project, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Mr-Dark-debug/CCMS-project.git
+   cd CCMS-project
